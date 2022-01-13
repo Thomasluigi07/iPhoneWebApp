@@ -17,8 +17,8 @@ body {
 }
 
 .wrapper {
-  width:310px;
-  margin:0 auto;
+  width:300px;
+  margin:0;
   background:#DEDEDE;
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
