@@ -10,7 +10,7 @@ They are made with html. You need an icon and a splash screen, and also need to 
 <link rel="apple-touch-icon" href="icon.png" />
 <link rel="apple-touch-startup-image" href="splash.png" />
 ```
-Icons need to be 57x57 for older iOS versions.
+If you would like more info, go here: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
 ## How do i save this to my homescreen?
 Press the share button at the bottom of the screen, then press "Add to Home Screen". Feel free to try without an internet connection, and delete once you are done.
 ## Why am I getting a certificate error????
