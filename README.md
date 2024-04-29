@@ -1,6 +1,6 @@
 [![Latest-Update-Published-State](https://github.com/Thomasluigi07/iPhoneWebApp/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Thomasluigi07/iPhoneWebApp/actions/workflows/pages/pages-build-deployment)
 # Where can I try this?
-Go to https://thomasluigi07.github.io/iPhoneWebApp/!
+Go to https://thomasluigi07.com/iPhoneWebApp/!
 # What can i do with this?
 Customise this as you wish! Works on all iOS versions as long as you have certificate fixing for older versions.
 ## How do iPhone Web Applications work?
