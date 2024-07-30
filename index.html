@@ -6,7 +6,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-title" content="Web App">
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link rel="apple-touch-icon" href="icon.png" />
+        <link rel="apple-touch-icon" href="icon.png"/>
         <link rel="apple-touch-startup-image" href="splash.png"/>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <!-- Discord Embed stuff and others -->
@@ -14,36 +14,58 @@
         <meta content="A web application for iOS devices." property="og:description">
         <meta content="https://thomasluigi07.github.io/iPhoneWebApp" property="og:url">
         <meta content="https://thomasluigi07.github.io/iPhoneWebApp/icon.png" property="og:image">
-        <link rel="stylesheet" href="the.css" />
-        <script src="the.js"></script>
+        <link rel="stylesheet" href="../style.css" />
+        <script src="../js/sound.js"></script>
         <title>Web Application for iOS devices</title>
     </head>
     <body>
-        <div class="wrapper">
-            <header>
-                <h1>This is a iPhone Web Application, a format of application which has been used since iPhone OS 1.</h1>
-            </header>
-            <section>
-                <h1>To add this to your homescreen, tap the share button, and then press Add to Home Screen.</h1>
-                <p>Does not work without internet! Wow!</p>
-                <p>This is a dummy string! How original!</p>
-            </section>
-            <section>
-                <h1>Test Images</h1>
-                <p>My iPod 1st gen</p>
-                <img src="my_ipod.jpeg" alt="My iPod first generation">
-                <p>A screenshot from the WALL-E videogame.</p>
-                <img src="walter.jpeg" alt="Screenshot of the first level from the WALL-E videogame for the Wii, XBOX 360 and PS3">
-            </section>
-            <section>
-                <h1>stop scrolling grrrrrrrrrrrr</h1>
-                <p>thats it</p>
-                <img src="caption.gif" alt="No More iOS 6. You could not behave.">
-            </section>
+        <audio id="load"><source src="" type="audio/wav"></audio>
+        <audio id="select"><source src="" type="audio/wav"></audio>
+        <audio id="back"><source src="" type="audio/wav"></audio>
+        <audio id="invalid"><source src="" type="audio/wav"></audio>
+        <audio id="leavesite"><source src="" type="audio/wav"></audio>      
+        <div class="navbar">
+            <p>Web Application for iOS devices</p>
         </div>
-        <footer>
-            <p>By <a href="https://github.com/Thomasluigi07">Thomasluigi07</a>.</p>
-            <p>CSS and JS for the theme by <a href="https://github.com/pages-themes/modernist/graphs/contributors">these cool people</a>!</p>
-        </footer>
+        <div class="content">        
+            <h1>This is a iPhone Web Application, a format of application which has been used since iPhone OS 1.</h1>
+            <br />
+            <p>To add this to your homescreen, tap the share button, and then press Add to Home Screen.</p>
+            <p>Does not work without internet! Wow!</p>
+            <p>This is a dummy string! How original!</p>
+            <br />
+            <br />
+            <h1>Test Images</h1>
+            <br />
+            <p>My iPod 1st gen</p>
+            <img style="width: 100%;" src="my_ipod.jpeg" alt="My iPod first generation">
+            <br />
+            <br />
+            <p>A screenshot from the WALL-E videogame.</p>
+            <img style="width: 100%;" src="walter.jpeg" alt="Screenshot of the first level from the WALL-E videogame for the Wii, XBOX 360 and PS3">
+            <br />
+            <br />
+            <p>stop scrolling grrrrrrrrrrrr</p>
+            <p>thats it</p>
+            <img style="width: 100%;" src="caption.gif" alt="No More iOS 6. You could not behave.">
+            <br />
+            <br />
+            <fieldset>
+                <a onclick="playSound('select')" href="https://github.com/Thomasluigi07">
+                  <div>
+                    <div>
+                      <label>My GitHub Profile<br></label>
+                    </div>
+                  </div>
+                </a>
+                <a onclick="playSound('select')" href="../index.html">
+                    <div>
+                      <div>
+                        <label>Back<br></label>
+                      </div>
+                    </div>
+                </a>
+            </fieldset>
+        </div>
     </body>
 </html>
